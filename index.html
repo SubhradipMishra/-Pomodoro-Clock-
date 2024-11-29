@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pomodoro Clock</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div id="countdown-display" class="countdown">
+      25:00
+    </div>
+
+    <div class="controls">
+      <div class="session-time">
+        <label for="session-time">Session Time</label>
+        <button id="decrease-session">-</button>
+        <span id="session-time">25</span>
+        <button id="increase-session">+</button>
+      </div>
+      <div class="break-time">
+        <label for="break-time">Break Time</label>
+        <button id="decrease-break">-</button>
+        <span id="break-time">5</span>
+        <button id="increase-break">+</button>
+      </div>
+
+      <div class="buttons">
+        <button id="start-btn">Start</button>
+        <button id="reset-btn">Reset</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
